@@ -1,14 +1,16 @@
 name: Second Workflow
+
 on: push
+
 jobs:
   hello-job:
     runs-on: ubuntu-latest
     steps:
-      -name: "welcome"
-       run: echo "welcome to the code step by step"
+      - name: "welcome"
+        run: echo "welcome to the code step by step"
 
   bye-job:
     runs-on: ubuntu-latest
     steps:
-      -name: "bye"
-       run: echo "bye bye and pls like this video"  
+      - name: "bye"
+        run: echo "bye bye and pls like this video"
