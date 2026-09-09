@@ -1,5 +1,5 @@
 name: Jobs Test 
-on: push
+on: 
   workflow_run:
     workflows: [First Workflow]
     types:
