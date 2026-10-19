@@ -1,18 +1,17 @@
-
 name: Second Workflow
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   hello-job:
     runs-on: ubuntu-latest
     steps:
-      - name: "welcome"
-        run: echo "welcome to the code step by step"
+      - name: Welcome
+        run: echo "Welcome to the code step by step"
 
   bye-job:
     runs-on: ubuntu-latest
     steps:
-      - name: "bye"
-        run: echo "bye bye and pls like this video"
+      - name: Bye
+        run: echo "Bye bye and please like this video"
